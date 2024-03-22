@@ -99,7 +99,6 @@ metrics1 = scheduler.escalonamento()
 
 
 # TESTE 2
-troughput_time = timedelta(seconds=0.02)
 
 processes_list = [Process("P1", 200), Process("P2", 1000), Process("P3", 100)]
 quantum_time = 230
@@ -109,7 +108,6 @@ metrics2 = scheduler.escalonamento()
 
 
 # TESTE 3
-troughput_time = timedelta(seconds=0.02)
 
 processes_list = [Process("P1", 200), Process("P2", 1000), Process("P3", 100)]
 quantum_time = 130
@@ -119,7 +117,6 @@ metrics3 = scheduler.escalonamento()
 
 
 # TESTE 4
-troughput_time = timedelta(milliseconds=20000)
 
 processes_list = [Process("P1", 200), Process("P2", 1000), Process("P3", 100)]
 quantum_time = 300
@@ -129,7 +126,6 @@ metrics4 = scheduler.escalonamento()
 
 
 # TESTE 5
-troughput_time = timedelta(milliseconds=20000)
 
 processes_list = [Process("P1", 200), Process("P2", 1000), Process("P3", 100)]
 quantum_time = 350
@@ -139,7 +135,6 @@ metrics5 = scheduler.escalonamento()
 
 
 # TESTE 6
-troughput_time = timedelta(milliseconds=20000)
 
 processes_list = [Process("P1", 200), Process("P2", 1000), Process("P3", 100)]
 quantum_time = 500
